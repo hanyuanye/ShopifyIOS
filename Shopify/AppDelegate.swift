@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Shopify
 //
-//  Created by Binil Pokhrel on 2019-09-18.
+//  Created by Hanyuan Ye on 2019-09-18.
 //  Copyright © 2019 tester. All rights reserved.
 //
 
@@ -15,7 +15,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        window = UIWindow(frame: UIScreen.main.bounds)
+        
+        let mainVC = MainViewController()
+        let mainNC = UINavigationController(rootViewController: mainVC)
+        
+        mainNC.navigationBar.barTintColor = .black
+        
+        window!.rootViewController = mainNC
+        window!.makeKeyAndVisible()
         return true
     }
 

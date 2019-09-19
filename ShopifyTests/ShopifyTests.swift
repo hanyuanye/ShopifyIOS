@@ -2,7 +2,7 @@
 //  ShopifyTests.swift
 //  ShopifyTests
 //
-//  Created by Binil Pokhrel on 2019-09-18.
+//  Created by Hanyuan Ye on 2019-09-18.
 //  Copyright © 2019 tester. All rights reserved.
 //
 
