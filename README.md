@@ -7,6 +7,5 @@ error alerts for if things failed to download, and perhaps a user flow if someth
 
 # Third Party Dependencies
 
-This project uses Cartography to condense the layout code. I've found in the path, while Autolayout is definitely the way to implement,
-that both storyboards/XIBs and programatically creating constraints to be unwieldy or to introduce unneccessary complexity. Cartography
+This project uses Cartography to condense the layout code. I've found in the past, that while Autolayout is definitely the way to implement UI, both storyboards/XIBs and programatically creating constraints are either unwieldy or unneccessaryily introduce complexity. Cartography
 is a library which condenses the Constraint API and makes it much easier to write, and in my opinion, read. 
