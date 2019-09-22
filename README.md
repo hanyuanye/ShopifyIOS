@@ -4,3 +4,9 @@ There's haptic feedback for most of the actions(I always wanted to try implement
 
 Other than that, pretty standard implementation of a CollectionView with some networking. If I were to add stuff to it, I'd probably add a 
 error alerts for if things failed to download, and perhaps a user flow if something didn't load in.
+
+# Third Party Dependencies
+
+This project uses Cartography to condense the layout code. I've found in the path, while Autolayout is definitely the way to implement,
+that both storyboards/XIBs and programatically creating constraints to be unwieldy or to introduce unneccessary complexity. Cartography
+is a library which condenses the Constraint API and makes it much easier to write, and in my opinion, read. 
